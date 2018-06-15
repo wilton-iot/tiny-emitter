@@ -49,5 +49,16 @@
       "iphone/6.0..latest",
       "android-browser/4.2..latest"
     ]
+  },
+  "wilton": {
+    "excludes": [
+      "test",
+      "index.d.ts",
+      "index.js",
+      "instance.js"
+    ],
+    "preMinifiedFiles": [
+        "dist/tinyemitter.js"
+    ]
   }
 }
